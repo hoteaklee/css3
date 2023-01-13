@@ -43,10 +43,12 @@
     /* 테두리 , 높이 지정  */
     nav {border: 1px solid darkgreen; height:35px; background: #cccccc  }
 
-    /* 임력 폼 테두리, 여백, 마진 지정 */
+
     nav input, nav select, nav button {
         margin: 2px 0; vertical-align: baseline;
     }
+
+    /* 임력 폼 테두리, 여백, 마진 지정 */
     nav input{border: 1px solid black;
                 width: 290px; padding: 4px; }
 
@@ -60,6 +62,33 @@
                 border-radius: 10px; padding: 2px;
                 border: 1px solid black;
                 margin-top: 3px}
+
+    /*테두리 표시 */
+    main { border: 1px solid darkviolet;}
+
+    section:first-child {border: 1px solid darkblue;
+            position: relative; }
+
+    /* 사이드 메뉴- 테두리, 너비 지정*/
+    section:first-child aside {
+            /*border: 1px solid darksalmon;*/
+            width: 25%}
+    /*  ul의 테두리는 두껍께 표시*/
+    section:first-child aside ul {list-style: none;
+            padding: 0; margin: 0; border: 2px solid black; }
+    /*  ul의 li은 아래쪽 테두리만 그림, 여백 설정*/
+    section:first-child aside ul li {
+        border-bottom: 1px solid black;
+        padding: 8px 10px;}
+    /* ul의 마지막 li는 테두리 없음*/
+    section:first-child aside ul li:last-child {
+            border: none; }
+
+    /* 로테이트 이미지 - 테두리, 너비, 배치 위치 지정*/
+    section:first-child div {border: 1px solid darkgoldenrod;
+                width: 75%; position: absolute; right: 0px; top: 0px; }
+
+    section:last-child {border: 1px solid darkcyan;}
 
 
 
@@ -126,8 +155,6 @@
                     <li>2</li>
                     <li>3</li>
                     <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
                 </ul>
             </div>
         </section>

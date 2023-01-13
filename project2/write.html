@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>write</title>
+</head>
+<body>
+    <header><h1>JSP 프로젝트 </h1></header>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:63342/html5/project2/index.html">HOME</a></li>
+            <li><a href="http://localhost:63342/html5/project2/join.html">회원가입</a></li>
+            <li><a href="http://localhost:63342/html5/project2/login.html">로그인</a></li>
+            <li><a href="http://localhost:63342/html5/project2/rist.html">게시판</a></li>
+            <li><a href="http://localhost:63342/html5/project2/view.html">회원정보</a></li>
+        </ul>
+        <hr>
+    </nav>
+    <main>
+        <h2>게시판 글작성
+            <form name="write">
+                <table>
+                    <tr>
+                        <th></th><label for="title">제목</label>
+                        <td><input type="text" name="title" id="title"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="uid">작성자</label></th>
+                        <td><input type="text" name="uid" id="uid"
+                                        value="siestageek" readonly></td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="contents">문</label> </th>
+                        <td><textarea name="contents" id="contents"
+                                rows="7" cols="55"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="button">입력완료</button>
+                            <button type="reset">다시입력</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+
+    </main>
+
+    <footer>
+        <hr>
+        <div> Cooyright &copy; 2023.hoteaklee.ALL Right Reserved.</div>
+    </footer>
+</body>
+</html>

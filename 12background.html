@@ -68,7 +68,7 @@
     /* 축 약 */
     #box13 { background: chartreuse url("img/plane.png") no-repeat center;}
 
-    /* 스프라아트*/
+    /* 스프라이트 */
     #box14,#box15,#box16{
         width: 46px; height: 44px;
         background: url("img/img_navsprites.gif");
@@ -80,7 +80,7 @@
     #box15 { width: 43px; background:url("img/img_navsprites.gif") -47px 0; }
     #box15:hover {width: 42px;
                 background:url("img/img_navsprites.gif")
-                -47px 0;}
+                -47px -46px;}
 
 
     #box16 { width: 43px;
@@ -88,6 +88,27 @@
     #box16:hover { width: 43px; background:url("img/img_navsprites.gif")
                 -91px -45px;}
 
+        /* 그라디언트 */
+    #box17,#box18,#box19{
+        width: 450px; height: 150px;
+        margin: 25px 0;}
+
+        /* 선형-그라디언트 linear-gradient (방향, 색1, 색2, ...) */
+    #box17 { background: linear-gradient(to right, blue,pink)}
+
+    #box18 { background: linear-gradient(pink, blue)}
+
+    #box19 { background: linear-gradient(
+            to right, red, orange, yellow, green,blue,navy,purple )}
+
+
+    #box20, #box21{
+        width: 250px; height: 250px;
+        margin: 25px 0;}
+
+    /* 원형-그라디언트 radial-gradient */
+    #box20 { background: radial-gradient(red,yellow)}
+    #box21 { background: radial-gradient(red, orange, yellow, green,blue,navy,purple )}
 
 
   </style>
@@ -164,6 +185,21 @@
     <div id="box14">&nbsp;</div>
     <div id="box15">&nbsp;</div>
     <div id="box16">&nbsp;</div>
+
+
+    <h2>그라디언트</h2>
+    <p>두가지 이상의 색 간의 점진적 변화를 표연하는 기법</p>
+    <p>그라디언트의 종류는 선혀으 방사형 각진원형등이 잇음</p>
+
+    <div id="box17">&nbsp;</div>
+    <div id="box18">&nbsp;</div>
+    <div id="box19">&nbsp;</div>
+
+
+    <div id="box20">&nbsp;</div>
+    <div id="box21">&nbsp;</div>
+
+
 
 
 </body>

@@ -54,7 +54,7 @@
 
     /* 입력 폼 테두리, 여백, 마진, 너비 지정*/
     nav select { border: 1px solid black;
-                 width: 150p; padding: 1.5px; }
+                 width: 150px; padding: 1.5px; }
 
     /* 배경, 글자색,여백, 마진, 너비, 글꼴크기, 테두리 모서리 지정*/
     nav button {background: #999999; color: white;
@@ -101,7 +101,20 @@
     section:first-child div ul li{ display: inline-block;
             background: #cccccc; padding: 5px 10px; margin: 5px;}
 
+    /* 상품 목록 - 테두리 표시 */
     section:last-child {border: 1px solid darkcyan;}
+
+    /* 상품목록 배치 - 항목별로 원쪽 마진 지정 */
+    section:last-child ul { list-style: none;
+            padding: 0; margin: 30px 0;}
+    section:last-child ul li { display: inline-block;
+            margin-left: 4.5%;}
+
+    /* 상품 링크 - 이미지 크기, 배경 지정 , 인라인요소를 블록요소로 변경*/
+    section:last-child ul img {width: 100px; height: 100px;
+            background: #cccccc; }
+    section:last-child ul a {display:block; text-align: center;}
+
 
 
 

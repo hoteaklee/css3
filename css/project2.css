@@ -20,3 +20,6 @@ form label { display: inline-block;
     font-weight: bold;}
 form input { padding: 5px;}
 button { padding: 5px 7px;}
+
+/* 새글쓰기, 본문 보기 */
+.drgup {vertical-align: top }

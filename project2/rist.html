@@ -17,6 +17,7 @@
        .board th {padding: 7px; background: green; }
        .board tr:nth-child(odd) {  background: #e4f7ba}
        .board tr:nth-child(even) {  background: #b3d4fc}
+       .alignrgt{ text-align-last: right; }
 
         .pagenation { list-style: none; padding: 0; margin: 0 auto;
                 /*border: 1px solid red;*/ width: 435px; }
@@ -40,10 +41,7 @@
     <main>
         <h2>게시판</h2>
         <table class="board">
-            <!--<tr><td colspan="5">
-                <button type="button" onclick="location.href='write.html'">
-                    새글작성</button>-->
-           <!-- </td></tr>-->
+
             <colgroup> <!-- 각 컬럼에 디자인 적용 -->
                 <col style="width: 10%">
                 <col>
@@ -51,6 +49,10 @@
                 <col style="width: 15%">
                 <col style="width: 10%">
             </colgroup>
+            <tr><td colspan="5" class="alignrgt">
+                <button type="button" onclick="location.href='write.html'">
+                    새글작성</button>
+            </td></tr>
             <tr>
                 <th>번호</th>
                 <th>제목</th>

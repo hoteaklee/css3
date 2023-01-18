@@ -120,8 +120,8 @@ a<sup>2</sup> = b<sup>2</sup> + c<sup>2<br>
 * [] 에는  이미지에대한 보조문구를 ()에는 실제 표시할 이미지의 경로와 파일명을 작성함
 ---
 ![](img/rubber-duck.png)<br>
- <!--![수지뽀뽀](img/img.png)<br> -->
- <img src="img/img.png" alt="수지뽀뽀" title="수지뽀뽀" width="20%">
+ <!--![수지뽀뽀](img/suji.png)<br> -->
+ <img src="img/suji.png" alt="수지뽀뽀" title="수지뽀뽀" width="20%">
 
 # 10.테이블
 * 테이블을 작성하려면 | 와 - 으로 사용해서 나타낼수 있음
@@ -139,9 +139,11 @@ a<sup>2</sup> = b<sup>2</sup> + c<sup>2<br>
 * LaTeX 형식의 수학식 작성법을 지원
 * 수식을 작성하려면 $ $ 기호를 사용
 * 자세한 LaTex 문법은 https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95
+* 온라인에 간단히 LaTex 문법을 확인하고 싶다면
+http://editor.codecogs.com 를 참고함
 ---
-$a^2 = b^2 + c^2$
-$$x=-b\pm\sqrt[](b^2-4ac) \over 2a $$
+$a^2 = b^2 + c^2$ <br>
+$$x={-b\pm\sqrt[]{b^2-4ac} \over 2a} $$
 
 
 
